@@ -4,25 +4,37 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 .color {
     color: orange;
 }
 
-section {
+.flexible-blog {
     display: flex;
     padding-left: 20px;
     padding-right: 2%;
     text-align: justify;
     margin-bottom: 100px;
+    width: 100%;
+
 
 }
 
-.image {
-    width: 200%;
+.half-width {
+    width: 50%;
+    padding: 2%;
 }
+
+.half-width img {
+    width: 70%;
+}
+
 
 .link {
     text-decoration: none;
@@ -43,13 +55,40 @@ section {
     background-repeat: no-repeat;
 }
 
-div img {
-    width: 80%;
-
-}
 
 .dream-big {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.date {
+    color: orange;
+}
+
+.experience-blog {
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exp-style {
+    width: 42%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 10px 10px 10px 20px;
+    box-shadow: 10px 10px 40px gray
+}
+
+#border-left {
+    border-left: 5px solid red;
+}
+
+#border-right {
+    border-left: 5px solid blue;
+}
+
+footer {
+    text-align: center;
 }
